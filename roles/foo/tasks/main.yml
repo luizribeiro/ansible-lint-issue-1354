@@ -1,0 +1,5 @@
+---
+- name: Upgrade all AUR packages
+  aur:
+    upgrade: true
+    aur_only: true
