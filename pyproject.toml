@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ansible-lint-issue-1354"
+version = "0.0.1"
+description = "Repro case of ansible-lint issue #1354"
+authors = [
+  "Luiz Ribeiro <luizribeiro@gmail.com>",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ansible = "2.10.7"
+ansible-lint = "5.0.0"
+
+[build-system]
+requires = ["poetry>=1.0.10"]
+build-backend = "poetry.masonry.api"

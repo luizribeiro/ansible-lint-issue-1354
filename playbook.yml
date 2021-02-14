@@ -1,0 +1,9 @@
+---
+- name: Update AUR on arch boxes
+  hosts: arch
+  remote_user: aur_builder
+  tasks:
+    - name: ensure apache is at the latest version
+      aur:
+        upgrade: true
+        aur_only: true
